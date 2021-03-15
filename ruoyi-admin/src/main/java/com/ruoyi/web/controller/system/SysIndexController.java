@@ -4,6 +4,8 @@ import java.util.Date;
 import java.util.List;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
+
+import com.ruoyi.common.core.domain.entity.SysDept;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -44,6 +46,23 @@ public class SysIndexController extends BaseController
     @Autowired
     private SysPasswordService passwordService;
 
+    // 进入系统
+    @GetMapping(path = {"/system", "/"})
+    public String system(ModelMap mmap) {
+
+
+        // 村党组织书记人数
+
+//		<option value="0" #if(user.type??==0) selected="selected" #end>村党总支书记、主任</option>
+//		<option value="1" #if(user.type??==1) selected="selected" #end>村党支部书记、主任 </option>
+//		<option value="2" #if(user.type??==2) selected="selected" #end>村党总支副书记</option>
+//		<option value="3" #if(user.type??==3) selected="selected" #end>村党支部副书记</option>
+//		<option value="4" #if(user.type??==4) selected="selected" #end>村委会副主任</option>
+//		<option value="5" #if(user.type??==5) selected="selected" #end>文书</option>
+
+
+        return "system";
+    }
     // 系统首页
     @GetMapping("/index")
     public String index(ModelMap mmap)
