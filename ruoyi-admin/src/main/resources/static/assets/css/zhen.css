@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body,html{
+	width: 100%;
+	height: auto;
+}
+#main{
+	/* display: flex; */
+	margin-left: 25px;
+}
+.weizhi{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	color: #C9C9C9;
+}
+.form input {
+	width: 220px;
+	height: 35px;
+	outline-style: none;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.jieshao{
+	width: 70%;
+	height: auto;
+	border-bottom: 2px solid #dcdcdc;
+}
+.jieshao h2{
+	/* font-family: "黑体"; */
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.jieshao p{
+	font-family: "黑体";
+	font-size: 16px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	color: #666666;
+	border-bottom: 1px solid #DCDCDC;
+}
+button{
+	width: 80px;
+	height: 35px;
+	color: #fff;
+	background-color: #999999;
+	font-size: 18px;
+}
+::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #e1e1e1;
+	font-size: 16px;
+	outline-style: none;
+}
+.table{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}

@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body,html{
+	width: 100%;
+	height: auto;
+}
+#main{
+	/* display: flex; */
+	margin-left: 25px;
+}
+.weizhi{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	color: #C9C9C9;
+}
+.xuanze{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+}
+.xuanze span{
+	color: #c1c1c1;
+	font-size: 16px;
+}
+.xuanze input{
+	width: 180px;
+	height: 35px;
+	margin-left: 100px;
+}
+.text{
+	margin-top: 20px;
+	text-align: center;
+	color: #f00;
+}
+.botton{
+	margin-top: 60px;
+	text-align: center;
+}
+button{
+	width: 100px;
+	height: 48px;
+	color: #fff;
+	background-color: #f02200;
+	font-size: 14px;
+	border: 1px solid transparent;
+}

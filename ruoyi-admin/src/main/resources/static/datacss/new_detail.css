@@ -1,0 +1,143 @@
+.title-bg {
+  background: #f55157;
+  border-radius:4px;
+  padding:10px;
+}
+.title-color {
+  color: #fff;
+  font-size:16px;
+}
+.jiben-line{
+    border-bottom:1px solid #7f7f7f;
+    margin-top:7px;
+}
+.jiben-form {
+    display:flex;
+}
+.im-input{
+    height: 38px!important;
+    line-height: 38px!important;
+    outline: none;
+}
+.layui-input-block{
+    border:1px solid #eee;
+}
+
+.ganbu-form{
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+.ganbu-form div{
+    width:26%;
+    display: flex;
+    align-items: center;
+    padding:0 18px;
+}
+.ganbu-form div p{
+    margin-left:10px;
+}
+.layui-form-label{
+    min-width:60px;
+    text-align:left;
+}
+.ganbu-title{
+    width:200px;
+    /*margin-left:20px;*/
+}
+
+.jiben-upload{
+    /* border:1px solid #999999; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.jianzhi-info{
+    /* border:1px solid #ccc; */
+    /* padding-left:15px; */
+}
+
+.jianzhi-info2{
+    /* border-top:none; */
+}
+
+.jianzhi-info2-title{
+    line-height: 38px;
+}
+
+.noborder{
+    border:none!important;
+    margin-left: 0px!important;
+    min-width: 66px!important;
+}
+
+.layui-input, .layui-select, .layui-textarea {
+    height: 38px!important
+}
+
+label{
+    color: #3a3a3a;
+}
+table tr:hover{
+    background-color: #fff!important;
+}
+
+#demo1,.demo1{
+    width: 140px!important;
+    height:180px!important;
+}
+
+.upload-btn{
+    background:#f02200;
+    width:70px;
+    height: 20px!important;
+    line-height:20px!important;
+    margin-bottom:30px;
+}
+
+.layui-table img {
+    max-width: none;
+}
+
+.ganbu-upload{
+    float: left;
+    margin-right: 309px;
+    position: relative;
+}
+
+.btn-click{
+    width:100px;
+    position: absolute;
+    top:48px;
+    left:180px;
+}
+
+.admin-btn{
+    background:#f02200;
+    margin:30px 0 40px 44%;
+}
+table tr td p label,.layui-form-label,.ganbu-form p{
+    font-size: 15px;
+    color:#3A3A3A;
+    padding: 0;
+}
+table tr td p{
+    font-size: 15px;
+    color:#3A3A3A;
+}
+
+.layui-upload-list {
+    margin: 30px 0;
+}
+
+.ganbu-table tr td{
+    border-bottom: none;
+}
+
+.layui-table td, .layui-table th {
+    min-width: 66px!important;
+}
+
+.pimg{
+    margin-right: 20px;
+}

@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body,html{
+	width: 100%;
+	height: auto;
+}
+#main{
+	/* display: flex; */
+	margin-left: 25px;
+}
+.topsearch{
+	
+}
+.input_name {
+	width: 100px;
+	height: 50px;
+	background-color: #C4C4C4;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid #C4C4C4;
+}
+.weizhi{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	color: #C9C9C9;
+}
+.form {
+	display: flex;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.form input {
+	outline-style: none;
+	font-size: 16px;
+	padding-left: 10px;
+}
+::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #e1e1e1;
+	font-size: 16px;
+}
+button{
+	width: 80px;
+	height: 35px;
+	color: #fff;
+	background-color: #999999;
+	font-size: 18px;
+}
+.jieshao{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #dcdcdc;
+}
+.jieshao h2{
+	font-family: "ºÚÌå";
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.jieshao p{
+	font-family: "ºÚÌå";
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: #666666;
+}
+
+.zaizhibox{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.xinzeng{
+	font-size: 16px;
+	position: absolute;
+	right: 100px;
+	top:130px;
+	background-color: #f02200;
+	width: 90px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	color: #FFF;
+	border-radius: 2px;
+}
+.zaizhi{
+/* 	width: 60%;
+	height: auto; */
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #C4C4C4;
+}
+.zaizhi .people{
+	width: 47%;
+	height: auto;
+	border: 1px solid #C4C4C4;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	position: relative;
+}
+.zaizhi .people img{
+	width: 105px;
+	height: 145px;
+}
+.zaizhi .people ul{
+	list-style: none;
+}
+.zaizhi .people ul li{
+	list-style: none;
+}
+.zaizhi .people .li1{
+	width:70%;
+	position: absolute;
+	top: 20px;
+}
+.zaizhi .people .li2{
+	width:70%;
+	position: absolute;
+	bottom: 25px;
+}
+.zaizhibox .title{
+height: 40px;
+	display: flex;
+	align-items: center;
+	margin: 10px 0px;
+	margin-left: 10px;
+}

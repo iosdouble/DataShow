@@ -1,0 +1,53 @@
+.weather-container{ 
+    position:absolute; 
+    right:.3rem; 
+    top:0; 
+    /* line-height: .75rem; */
+    /* background-color: #ffffff; */
+}
+.weather-container p{
+    float: left;
+    margin: 0.15rem 0.15rem 0.15rem 0.15rem;
+}
+.weather-container .weather-box1{
+    margin-top: 0.08rem;
+}
+.weather-container .weather-box1 svg{
+    /* margin-top: -0.05rem; */
+    width: 0.4rem;
+    height: 0.35rem;
+}
+.weather-container .weather-box1 svg,span{
+    display: block;
+}
+.weather-container .weather-box1 span{
+    margin-top: -0.02rem;
+}
+.weather-container .weather-box2 i,span{
+    display: block;
+}
+.weather-container .weather-box2 span{
+    font-size: 0.18rem;
+}
+.weather-container .weather-box2 i{
+    font-style: normal;
+    color:#3db7f5; 
+    font-size: 0.15rem; 
+}
+.weather-container .weather-box3 span{
+    display: block;
+}
+.weather-container .weather-box3 .weather-details{
+    font-size: 0.18rem;
+}
+
+.weather-container img{ 
+    width:.37rem; 
+    display: inline-block; 
+    vertical-align: middle;
+}
+.weather-container span{
+    color:#3db7f5; 
+    font-size: .15rem; 
+    padding-right: .1rem;
+}
